@@ -14,8 +14,8 @@
         border-radius: 0.5rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
 
         .testimonial-header {
             display: flex;
@@ -44,13 +44,27 @@
                 font-family: var(--font-family-default);
             }
 
-            .author-quote {
-                display: block;
 
-                font-family: var(--font-family-default);
-                color: white;
-            }
     }
 
     }
+}
+
+.author-quote {
+    margin-top: 1rem;
+}
+
+blockquote {
+    font-family: var(--font-family-default);
+    color: var(--nutural-color-100);
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    color: var(--primary-color);
+    font-family: var(--font-family-default);
 }

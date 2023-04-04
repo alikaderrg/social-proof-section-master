@@ -97,10 +97,13 @@ select {
   }
 }
 @media (max-width: 700px) {
-  body .container {
+  body .container.bg {
     background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
+  }
+  body .container {
+    padding: 1rem;
   }
   body .container-top {
     display: flex;
@@ -157,43 +160,57 @@ select {
   }
 }
 @media (min-width: 701px) {
-  body .container {
+  body .container-bg {
     background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
   }
-  body .container-top {
+  body .container-bg .container {
+    padding: 2rem;
+  }
+  body .container-bg .container .container-top {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding-top: 5rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
   }
-  body .container-top .header-title {
+  body .container-bg .container .container-top .header-title {
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: left;
   }
-  body .container-top .header-subtitle {
+  body .container-bg .container .container-top .header-subtitle {
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: left;
     max-width: 21rem;
   }
-  body .container-top .rating-1 {
+  body .container-bg .container .container-top .rating-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 24rem;
+    gap: 1.5rem;
+    margin-right: 11rem;
+    padding-left: 1.2rem;
+    padding-right: 3rem;
+  }
+  body .container-bg .container .container-top .rating-2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 22rem;
     gap: 1.5rem;
-    margin-right: 2rem;
+    margin-right: 5rem;
   }
-  body .container-top .rating-2 {
+  body .container-bg .container .container-top .rating-3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -201,27 +218,37 @@ select {
     width: 22rem;
     gap: 1.5rem;
   }
-  body .container-top .rating-3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 22rem;
-    gap: 1.5rem;
-  }
-  body .star-rating {
+  body .container-bg .container .star-rating {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
   }
-  body .container-bottom {
+  body .container-bg .container .container-bottom {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  body .container-bg .container .container-bottom .testimonial-1 {
+    margin-top: 0;
+    min-width: 350px;
+    max-width: 350px;
+  }
+  body .container-bg .container .container-bottom .testimonial-2 {
+    margin-top: 1rem;
+    min-width: 320px;
+    max-width: 350px;
+  }
+  body .container-bg .container .container-bottom .testimonial-3 {
+    max-width: 350px;
+    min-width: 340px;
+    margin-top: 2rem;
   }
 }
 .container .container-top .header {
@@ -287,8 +314,8 @@ select {
   border-radius: 0.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .container-bottom .testimonial-box .testimonial-header {
   display: flex;
@@ -315,8 +342,22 @@ select {
   color: var(--secondary-color);
   font-family: var(--font-family-default);
 }
-.container-bottom .testimonial-box .testimonial-header .author-quote {
-  display: block;
+
+.author-quote {
+  margin-top: 1rem;
+}
+
+blockquote {
   font-family: var(--font-family-default);
-  color: white;
+  color: var(--nutural-color-100);
+}
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+  color: var(--primary-color);
+  font-family: var(--font-family-default);
 }
