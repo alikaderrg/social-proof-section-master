@@ -126,6 +126,7 @@ select {
     max-width: 20rem;
   }
   body .container-top .rated {
+    padding: 1rem;
     max-width: 375px;
   }
   body .container-top .rating-1 {
@@ -274,7 +275,7 @@ select {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 .container .container-top .rated .rating-1 {
   background-color: var(--nutural-color-400);
