@@ -102,9 +102,6 @@ select {
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
   }
-  body .container {
-    padding: 1rem;
-  }
   body .container-top {
     display: flex;
     flex-direction: column;
@@ -164,9 +161,6 @@ select {
     background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
-  }
-  body .container-bg .container {
-    padding: 2rem;
   }
   body .container-bg .container .container-top {
     display: flex;
