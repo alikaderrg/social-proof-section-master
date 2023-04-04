@@ -108,6 +108,8 @@ select {
     align-items: center;
     justify-content: center;
     padding-top: 4.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     max-width: 375px;
   }
   body .container-top .header-title {
@@ -122,6 +124,9 @@ select {
     align-items: center;
     text-align: center;
     max-width: 20rem;
+  }
+  body .container-top .rated {
+    max-width: 375px;
   }
   body .container-top .rating-1 {
     display: flex;
