@@ -134,21 +134,21 @@ select {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 22rem;
+    max-width: 350px;
   }
   body .container-top .rating-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 22rem;
+    max-width: 350px;
   }
   body .container-top .rating-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 22rem;
+    max-width: 350px;
   }
   body .container-top .star-rating {
     display: flex;
