@@ -1,0 +1,80 @@
+@media (min-width: 701px) {
+    body {
+        .container {
+            background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+            background-repeat: no-repeat, no-repeat;
+            background-position: top left, bottom right;
+
+            }
+            .container-top {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                //gap: 15rem;
+                padding-top: 5rem;
+                padding-left: 7rem;
+                padding-right: 7rem;
+
+                .header-title {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    text-align: left;
+                }
+
+
+                .header-subtitle {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    text-align: left;
+                    max-width: 21rem;
+                }
+
+                .rating-1 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    width: 22rem;
+                    gap: 1.5rem;
+                    margin-right: 2rem;
+                }
+
+                .rating-2 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    width: 22rem;
+                    gap: 1.5rem;
+                }
+
+                .rating-3 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    width: 22rem;
+                    gap: 1.5rem;
+                }
+                    }
+
+                    .star-rating {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+            .container-bottom {
+                display: flex;
+                flex-direction: row;
+                padding-top: 2rem;
+                padding-bottom: 1rem;
+                padding-left: 7rem;
+                padding-right: 7rem;
+            }
+    }
+    }

@@ -1,0 +1,56 @@
+.container-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+
+    .testimonial-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--primary-color);
+        border-radius: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+
+        .testimonial-header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1.5rem;
+
+            .author {
+                display: flex;
+                flex-direction: column;
+                line-height: 1.3;
+            }
+
+            .author-img {
+                border-radius: 50%;
+                object-fit: cover;
+                height: 50px;
+                width: 50px;
+            }
+            .author-name {
+                font-family: var(--font-family-default);
+                color: var(--nutural-color-100);
+            }
+            .author-status {
+                color: var(--secondary-color);
+                font-family: var(--font-family-default);
+            }
+
+            .author-quote {
+                display: block;
+
+                font-family: var(--font-family-default);
+                color: white;
+            }
+    }
+
+    }
+}

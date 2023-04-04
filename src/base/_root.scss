@@ -1,0 +1,24 @@
+:root {
+    /* Primary Colors - No HSL */
+    --Very-Dark-Magenta: 300, 43%, 22%;
+    --Soft-Pink: 333, 80%, 67%;
+    /* Var Primary Colors */
+    --primary-color: hsl(var(--Very-Dark-Magenta));
+    --secondary-color: hsl(var(--Soft-Pink));
+    /* Nutural Colors - No HSL */
+    --Dark-Grayish-Magenta: 303, 10%, 53%;
+    --Light-Grayish-Magenta: 300, 24%, 96%;
+    --White: 0, 0%, 100%;
+    /* Var Nutural Colors */
+    --nutural-color-100: hsl(var(--White));
+    --nutural-color-400: hsl(var(--Light-Grayish-Magenta));
+    --nutural-color-700: hsl(var(--Dark-Grayish-Magenta));
+    /* Fonts */
+    --font-family-default: 'League Spartan', sans-serif;
+    --font-size-regular: .8125rem;
+    --font-size-medium: 0.9625rem;
+    --font-size-bold: 2rem;
+    --font-wght-regular: 400;
+    --font-wght-medium: 500;
+    --font-wght-bold: 700;
+    }
