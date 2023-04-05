@@ -16,6 +16,12 @@
                     padding-right: 9rem;
 
 
+                .rated {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-end;
+                }
                 .header-title {
                     display: flex;
                     justify-content: left;
@@ -81,6 +87,10 @@
                 padding-bottom: 1rem;
                 padding-left: 9rem;
                 padding-right: 9rem;
+
+                .testimonial-1, .testimonial-2, .testimonial-3 {
+                    scale: 0.95;
+                }
 
                 .testimonial-1 {
                     margin-top: 0;
